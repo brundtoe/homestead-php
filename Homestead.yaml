@@ -12,6 +12,8 @@ folders:
       to:  /home/vagrant/php/doctrine26/bookstore
     - map: ~/sourcecode/php/doctrine26/customers
       to:  /home/vagrant/php/doctrine26/customers
+    - map: ~/sourcecode/php/symfony4/web
+      to:  /home/vagrant/php/symfony4/web
 
 sites:
     - map: websites.test
@@ -22,6 +24,10 @@ sites:
       php: "7.2"
     - map: customers.test
       to: /home/vagrant/php/doctrine26/customers/web/public
+      php: "7.2"
+    - map: symfony4.test
+      to: /home/vagrant/php/symfony4/web/public
+      type: "symfony4"
       php: "7.2"
 
 databases:
