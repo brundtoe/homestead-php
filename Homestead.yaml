@@ -15,11 +15,12 @@ folders:
     - map: ~/sourcecode/php/symfony4/web
       to:  /home/vagrant/php/symfony4/web
 
+# doctrine.test anvendes da der er konflikt med laravel bookstore
 sites:
     - map: websites.test
       to: /home/vagrant/php/websites/htdocs
       php: "7.2"
-    - map: bookstore.test
+    - map: doctrine.test
       to: /home/vagrant/php/doctrine26/bookstore/web/public
       php: "7.2"
     - map: customers.test
