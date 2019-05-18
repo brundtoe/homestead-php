@@ -6,13 +6,13 @@ authorize: ~/.ssh/id_rsa.pub
 keys:
     - ~/.ssh/id_rsa
 folders:
-    - map: ~/sourcecode/php/websites
+    - map: /home/projects/sourcecode/php/websites
       to:  /home/vagrant/php/websites
-    - map: ~/sourcecode/php/doctrine26/bookstore
+    - map: /home/projects/sourcecode/php/doctrine26/bookstore
       to:  /home/vagrant/php/doctrine26/bookstore
-    - map: ~/sourcecode/php/doctrine26/customers
+    - map: /home/projects/sourcecode/php/doctrine26/customers
       to:  /home/vagrant/php/doctrine26/customers
-    - map: ~/sourcecode/php/symfony4/web
+    - map: /home/projects/sourcecode/php/symfony4/web
       to:  /home/vagrant/php/symfony4/web
 
 # doctrine.test anvendes da der er konflikt med laravel bookstore
