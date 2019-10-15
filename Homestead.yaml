@@ -14,6 +14,9 @@ folders:
       to:  /home/vagrant/php/doctrine26/customers
     - map: /home/projects/sourcecode/php/symfony4/web
       to:  /home/vagrant/php/symfony4/web
+    - map: /home/projects/sourcecode/php/simplePHPRouter/web
+      to:  /home/vagrant/php/simplephprouter/web
+
 
 # doctrine.test anvendes da der er konflikt med laravel bookstore
 sites:
@@ -30,6 +33,10 @@ sites:
       to: /home/vagrant/php/symfony4/web/public
       type: "symfony4"
       php: "7.2"
+    - map: simplerouter.test
+      to: /home/vagrant/php/simplephprouter/web/public
+      php: "7.2"
+
 
 databases:
     - homestead
