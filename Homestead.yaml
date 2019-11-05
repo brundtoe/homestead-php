@@ -22,21 +22,20 @@ folders:
 sites:
     - map: websites.test
       to: /home/vagrant/php/websites/htdocs
-      php: "7.2"
+      php: "7.3"
     - map: doctrine.test
       to: /home/vagrant/php/doctrine26/bookstore/web/public
-      php: "7.2"
+      php: "7.3"
     - map: customers.test
       to: /home/vagrant/php/doctrine26/customers/web/public
-      php: "7.2"
+      php: "7.3"
     - map: symfony4.test
       to: /home/vagrant/php/symfony4/web/public
       type: "symfony4"
-      php: "7.2"
+      php: "7.3"
     - map: simplerouter.test
       to: /home/vagrant/php/simplephprouter/web/public
-      php: "7.2"
-
+      php: "7.3"
 
 databases:
     - homestead
