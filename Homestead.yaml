@@ -12,8 +12,8 @@ folders:
       to:  /home/vagrant/php/doctrine26/bookstore
     - map: /home/projects/sourcecode/php/doctrine26/customers
       to:  /home/vagrant/php/doctrine26/customers
-    - map: /home/projects/playground/bookstore44/web
-      to:  /home/vagrant/php/symfony4/web
+    - map: /home/projects/sourcecode/php/bookstore44/web
+      to:  /home/vagrant/php/bookstore44/web
     - map: /home/projects/sourcecode/php/simplePHPRouter/web
       to:  /home/vagrant/php/simplephprouter/web
 
@@ -30,7 +30,7 @@ sites:
       to: /home/vagrant/php/doctrine26/customers/web/public
       php: "7.3"
     - map: symfony4.test
-      to: /home/vagrant/php/symfony4/web/public
+      to: /home/vagrant/php/bookstore44/web/public
       type: "symfony4"
       php: "7.3"
     - map: simplerouter.test
