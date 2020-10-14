@@ -37,6 +37,10 @@ sites:
       to: /home/vagrant/php/simplephprouter/web/public
       php: "7.4"
 
+variables:
+  - key: VAGRANT
+    value: 'true'
+      
 databases:
     - homestead
     - bookstore
