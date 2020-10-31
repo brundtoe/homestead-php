@@ -38,8 +38,8 @@ sites:
       php: "7.4"
 
 variables:
-  - key: VAGRANT
-    value: 'true'
+  - key: PLATFORM
+    value: 'VAGRANT'
       
 databases:
     - homestead
