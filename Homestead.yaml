@@ -37,6 +37,7 @@ sites:
       to: /home/vagrant/php/simplephprouter/web/public
       php: "7.4"
 
+      
 variables:
   - key: PLATFORM
     value: 'VAGRANT'
