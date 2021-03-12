@@ -37,8 +37,8 @@ sites:
       to: /home/vagrant/php/simplephprouter/web/public
       php: "7.4"
 
-features:
-  - mysql
+feature:
+  - mysql8
       
 variables:
   - key: PLATFORM
