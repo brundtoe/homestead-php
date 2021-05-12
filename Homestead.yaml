@@ -14,31 +14,27 @@ folders:
       to:  /home/vagrant/php/doctrine26/customers
     - map: /home/projects/sourcecode/php/bookstore44/web
       to:  /home/vagrant/php/bookstore44/web
-    - map: /home/projects/sourcecode/php/simplePHPRouter/web
-      to:  /home/vagrant/php/simplephprouter/web
 
 
 # doctrine.test anvendes da der er konflikt med laravel bookstore
 sites:
     - map: websites.test
       to: /home/vagrant/php/websites/htdocs
-      php: "7.4"
+      php: "8.0"
     - map: doctrine.test
       to: /home/vagrant/php/doctrine26/bookstore/web/public
-      php: "7.4"
+      php: "8.0"
     - map: customers.test
       to: /home/vagrant/php/doctrine26/customers/web/public
-      php: "7.4"
+      php: "8.0"
     - map: symfony4.test
       to: /home/vagrant/php/bookstore44/web/public
       type: "symfony4"
-      php: "7.4"
-    - map: simplerouter.test
-      to: /home/vagrant/php/simplephprouter/web/public
-      php: "7.4"
+      php: "8.0"
+
 
 feature:
-  - mysql8
+  - mysql8: true
       
 variables:
   - key: PLATFORM
