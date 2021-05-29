@@ -10,8 +10,6 @@ folders:
       to:  /home/vagrant/php/websites
     - map: /home/projects/sourcecode/php/doctrine26/bookstore
       to:  /home/vagrant/php/doctrine26/bookstore
-    - map: /home/projects/sourcecode/php/doctrine26/customers
-      to:  /home/vagrant/php/doctrine26/customers
     - map: /home/projects/sourcecode/php/bookstore44/web
       to:  /home/vagrant/php/bookstore44/web
 
@@ -23,9 +21,6 @@ sites:
       php: "8.0"
     - map: doctrine.test
       to: /home/vagrant/php/doctrine26/bookstore/web/public
-      php: "8.0"
-    - map: customers.test
-      to: /home/vagrant/php/doctrine26/customers/web/public
       php: "8.0"
     - map: symfony4.test
       to: /home/vagrant/php/bookstore44/web/public
